@@ -498,3 +498,6 @@ body {
 .col-lg-3 {
     text-align: center;
 }
+.text-danger {
+    color: #e74c3c;
+}
