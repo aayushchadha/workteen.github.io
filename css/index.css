@@ -54,7 +54,7 @@ img {
   background-size: cover;
 }
 .navbar-default {
-    border-color: rgba(34,34,34,.05);
+    border-color:none;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
     -webkit-transition: all .35s;
@@ -82,11 +82,14 @@ img {
     color: #222;
 }
 
-
+.navbar-default .nav > li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
+    color: #f05f40;
+}
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    
+    color: #f05f40!important;
     background-color: transparent;
 }
 
@@ -127,7 +130,7 @@ img {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        
+        color: #f05f40;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -162,7 +165,7 @@ img {
 }
 span {
     font-family: 'Karla', sans-serif;
-    font-size: 57px;
+    font-size: 63px;
 }
 
 .intro {
@@ -176,10 +179,28 @@ span {
    background:rgb(35, 28, 35);
    color:white;
 }
+.city{
+    background:rgb(29, 11, 30);   
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+
+}
+.city input{
+    background:transparent;
+    border:0 white solid;
+}
+
+.city span{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;   
+    padding-left:-10px;
+    font-size:50px;
+}
+
 .col-md-6 {
     padding:0px;
 }
-.middle h1 {
+.middle h2 {
     font-family: 'Ubuntu', sans-serif;
     font-size:40px;
     text-align:left;
@@ -189,18 +210,34 @@ span {
     text-align: justify;
     font-size:20px;
 }
-.city {
-  background:#F8F8FF;
-  color: gray;
-}
 .team {
-  background:#FFF8DC;
-  color: gray;
+  background:rgb(76, 62, 76);
+  color:white;
   font-size: 20px;
 }
+.col-md-3{
+    padding:20px;
+    padding-top:-20px;
+    margin-top:-30px;
+}
+.col-lg-3 {
+    padding-left:-50px;
+}
+.fa {
+    color:white;
+}
+.team h3{
+    font-family:'Karla',sans-serif;
+}
+.team p{
+    font-family: 'Ubuntu',sans-serif;
+    text-align:justify;
+    font-size: 18px;
+}
+
 .blog {
-  background: #F8F8FF;
-  color: gray;
+  background: #201220;
+  color: white;
 }
 .contact {
   background:#FFF;
@@ -239,6 +276,7 @@ span {
     font-size:40px;
     text-align:center;
     padding-left:50px;
+    color: white;
 }
 .citynumber {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -254,22 +292,22 @@ span {
 .form-inline .form-group input {
   height: 50px;
   font-size: 20px;
-  color: black;
+  color: white;
   width:400px;
   border-width: 2px;
-  border-color: black;
+  border-color:white;
   border-style: solid;
   border-radius: 0;
   text-align: center;
 } 
 .blog h1 {
-  color: black;
+  color:white;
 }
 .blog p {
     font-family: 'Ubuntu', sans-serif;
-    text-align: justify;
+    text-align: center;
     font-size:20px;
-    color: black;
+    color: white;
 
 }
 .blog .right-content {
@@ -279,10 +317,11 @@ span {
     background:transparent;
     border-color:gray;
     border-radius:0px;
-    color:black;
+    color:white;
     font-size:20px;
-    height: 100px;
-    width: 500px
+    height: 75px;
+    width: 300px;
+    text-align: center;
 }
 .blog .btn:hover {
   background-color: rgba(255,255,255,0.5);
