@@ -1,125 +1,142 @@
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <title>WorkTeen</title>
-    </head>
+/*body{
+
+  background: url(index.png),url(index.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+/*.navbar-default {
+	background:transparent;
+    border:none;
+	position: center;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    padding:2px;
+    margin-top:-5px;
+}
+.navbar-default .navbar-nav > li > a {
+	color:white;
+	font-size: 15px; 
+	text-align: center;
+}
+.navbar-default .navbar-nav > li > a:active {
+    color:white;  
+}
+.navbar h2 {
+    color:white;
+    font-family:'Droid Sans', sans-serif;
+    font-size:18px;
+}
+h4 {
+    color:black;
+    font-size:18px;
+    font-family:'Droid Sans', sans-serif;
+}
+img {
+    height:60px;
+    margin-right:-20px;
+}*/
+
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+   background: url(index.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main-title {
+	position: absolute;
+	margin-top:20px;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+    font-family: 'Open Sans Condensed', sans-serif;  
+    font-size: 50px;
+}
+span {
+    font-family: 'Karla', sans-serif;
+    font-size: 57px;
+}
+
+.intro {
+    background: url(index.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.middle {
+   background:rgb(35, 28, 35);
+   color:white;
+}
+.col-md-6 {
+    padding:0px;
+}
+.middle h1 {
+    font-family: 'Karla', sans-serif;
+    font-size:48px;
+    text-align:left;
+}
+.middle p{
+    font-family: 'Karla', sans-serif;
+    text-align: justify;
+    font-size:20px;
+}
+.city {
+  background:#FFFAF0;
+  color: gray;
+}
+.team {
+  background:#FFF8DC;
+  color: gray;
+}
+.blog {
+  background: #FFFAF0;
+  color: gray;
+}
+.contact {
+  background:#FFF8DC;
+  color: gray;
+}
+
     
-    <!--<body id="large-header" class="large-header">
-  <div id="large-header" class="large-header">
-    <canvas id="demo-canvas"></canvas> 
-    <h1 class="main-title"><span>CONNECTING</span> PEOPLE AND OPPORTUNTIES.</h1>
-  </div>-->
-    <body>
-        <div class="section intro">
-            <div id="large-header" class="large-header">
-                <canvas id="demo-canvas"></canvas> 
-                <h1 class="main-title"><span>CONNECTING</span> PEOPLE AND OPPORTUNTIES.<p><button type="button" class="btn btn-default btn-lg">DISCOVER</button></p></h1>
-            </div>
-        </div>
-        <div class="section middle">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class = "left-content">
-                            <h1>Here's what we do.</h1>
-                            <!--<p> WorkTeen is an initiative to help high school students across various Indian cities find internships, volunteering and research opportunities. We work with non governmental organisations, various firms and research institutes to help high school students dicover new passions and contribute towards the community.We are constantly on the look out for new opportunities and if you are in a position to help us expand our opportunities, we will love to talk to you. You can leave us your contact details by making use of the Contact Us form or leave us a message on our social media channels. Either way, a member of our team will get in touch with you at the earliest. </p>-->
-                            <p>We take students and high schoolers, like you, and we connect them to NGOs and Organisations who post listings with us.</p>
-                            <p>Simple as that. Create an account with us now to start off.</p>
-                            <p><button type="button" class="btn btn-default btn-lg">CREATE AN ACCOUNT</button></p>
-                            <p> Alternatively, if you want to help out, drop a message <a href="#">here</a>.</p>
-                        </div>
-                    </div>
-                    <div class = "right-content">
-                            <h1>For organisations.</h1>
-                            <p>Interested in listing with us?</p>
-                            <p>Follow that link below.</p>
-                            <p><button type="button" class="btn btn-default btn-lg">REGISTER WITH US</button></p>
-                        </div>
-                </div>
-            </div>
-        </div>
-        <div class="city">
-            <div class="container">
-                <div class="row">
-                    City
-                </div>
-            </div>
-        </div>
-        <div class="team">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2 class="section-heading">Our Team</h2>
-                    <hr class="primary">
-                </div>
-                <div class="col-md-3 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-desktop wow bounceIn text-primary"></i>
-                        <h3>Kunal Mishra</h3>
-                        <p class="text-muted">Kunal Mishra contributed extensively to the front-end design of this website. Most pages were made possible due to his tenacity. His ability of finding innovative workarounds contribute to the team's strength. For Kunal, WorkTeen is a portal to help his fellow classmates, most of whom are still pondering ideas for their CAS project. His capacity at WorkTeen involves maintaining and upgrading the user experience.</p>
-                    </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-database wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Aayush Chadha</h3>
-                        <p class="text-muted">An IBDP year 2 student, Aayush thought of WorkTeen after he completed his CAS requirements and sat down to reflect upon his experience. He then developed and designed the website with the other co-founders. When he isn’t making any changes to the code or prototyping new features, Aayush dabbles in the design of promotional content, write new posts for the WorkTeen Blog or seek new opportunities to put up</p>
-                    </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-code wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Yathannsh Kulshrestha</h3>
-                        <p class="text-muted"> Yathannsh is an IBDP year 1 student, who can be identified as the Chief Technology Head of the website. Frustrated seeing his seniors start non-profits impaired with morals and reasons just for IB CAS hours made him passionate about WorkTeen's cause. His significant experience in multiple web technologies contributes towards enhancing the user experience and building new features. He also heads WorkTeen's operations in Jaipur.</p> 
-                    </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-comments-o wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>Abhijoy Nandi</h3>
-                        <p class="text-muted">Abhijoy is an IBDP year 2 student, who can be identified as the head of communications and business at WorkTeen. His eye for design and knowledge gained as a student of Visual Art has been useful in defining many elements of the user interface. His role includes contacting various corporates to find internship opportunities and at the same time, expanding WorkTeen’s reach by utilising his extensive social circle.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div class="blog">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h1>Blog</h1>
-                    </div>
-                    <div class="col-md-6">
-                        <h1>BLog Stuff</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h1>Cool stuff</h1>
-                    </div>
-                    <div class="col-md-6">
-                        <h1>Cool stuff</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
-        
-        <script src="js/wow.min.js"></script>
-        <script src="js/TweenLite.min.js"></script>
-		<script src="js/EasePack.min.js"></script>
-		<script src="js/rAF.js"></script>
-		<script src="js/demo-1.js"></script>
-</html>
+.container {
+    padding:200px;
+    padding-top: 175px;
+    padding-bottom:250px;
+    text-align:center;
+}
+    
+.btn-default{
+    background:transparent;
+    border-color:white;
+    border-radius:0px;
+    color:white;
+    font-size:20px;
+}
+.btn:hover, .btn:active {
+  color: white;
+  background-color: rgba(0,0,0,0.3);
+}
+.left-content {
+  margin-right:50px;
+}
+
+
+
+
+
