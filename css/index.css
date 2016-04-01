@@ -1,0 +1,124 @@
+/*body{
+
+  background: url(index.png),url(index.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+/*.navbar-default {
+	background:transparent;
+    border:none;
+	position: center;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    padding:2px;
+    margin-top:-5px;
+}
+.navbar-default .navbar-nav > li > a {
+	color:white;
+	font-size: 15px; 
+	text-align: center;
+}
+.navbar-default .navbar-nav > li > a:active {
+    color:white;  
+}
+.navbar h2 {
+    color:white;
+    font-family:'Droid Sans', sans-serif;
+    font-size:18px;
+}
+h4 {
+    color:black;
+    font-size:18px;
+    font-family:'Droid Sans', sans-serif;
+}
+img {
+    height:60px;
+    margin-right:-20px;
+}*/
+
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+   background: url(index.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main-title {
+	position: absolute;
+	margin-top:20px;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+    font-family: 'Open Sans Condensed', sans-serif;  
+    font-size: 50px;
+}
+span {
+    font-family: 'Karla', sans-serif;
+    font-size: 57px;
+}
+
+.intro {
+    background: url(index.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.middle {
+   background:#FFF8DC;
+   color: gray;
+}
+.city {
+  background:#FFFAF0;
+  color: gray;
+}
+.team {
+  background:#FFF8DC;
+  color: gray;
+}
+.blog {
+  background: #FFFAF0;
+  color: gray;
+}
+.contact {
+  background:#FFF8DC;
+  color: gray;
+}
+
+    
+.container {
+    padding:200px;
+    text-align:center;
+}
+    
+.btn-default{
+    background:transparent;
+    border-color:white;
+    border-radius:0px;
+    color:white;
+    font-size:20px;
+}
+.btn:hover, .btn:active {
+  color: white;
+  background-color: rgba(0,0,0,0.3);
+}
+#left-content {
+  background-color: #cce2f8;
+}
+
+
