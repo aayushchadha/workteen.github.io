@@ -87,11 +87,12 @@ span {
     padding:0px;
 }
 .middle h1 {
-    font-family: 'Karla', sans-serif;
-    font-size:48px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:40px;
+    text-align:left;
 }
 .middle p{
-    font-family: 'Karla', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     text-align: justify;
     font-size:20px;
 }
@@ -115,9 +116,13 @@ span {
     
 .container {
     padding:200px;
-    padding-top:250px;
+    padding-left:100px;
+    padding-top: 175px;
     padding-bottom:250px;
     text-align:center;
+}
+.container , .right-content{
+    padding-right: 30px;
 }
     
 .btn-default{
@@ -131,8 +136,18 @@ span {
   color: white;
   background-color: rgba(0,0,0,0.3);
 }
-#left-content {
-  background-color: #cce2f8;
+.left-content {
+  margin-right:50px;
+  
 }
+.col-md-12 h1{
+    font-size:50px;
+    text-align:center;
+    padding-left:50px;
+}
+
+
+
+
 
 
