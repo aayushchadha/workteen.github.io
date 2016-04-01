@@ -88,7 +88,7 @@ span {
 }
 .middle h1 {
     font-family: 'Karla', sans-serif;
-    font-size:46px;
+    font-size:40px;
     text-align:left;
 }
 .middle p{
@@ -116,9 +116,13 @@ span {
     
 .container {
     padding:200px;
+    padding-left:100px;
     padding-top: 175px;
     padding-bottom:250px;
     text-align:center;
+}
+.container , .right-content{
+    padding-right: 30px;
 }
     
 .btn-default{
@@ -134,7 +138,9 @@ span {
 }
 .left-content {
   margin-right:50px;
+  
 }
+
 
 
 
