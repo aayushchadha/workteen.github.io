@@ -1,6 +1,6 @@
 /*body{
 
-  background: url(../css/index.png),url(../css/index.png) no-repeat center center fixed; 
+  background: url(index.png),url(index.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -53,6 +53,102 @@ img {
   -o-background-size: cover;
   background-size: cover;
 }
+.navbar-default {
+    border-color: rgba(34,34,34,.05);
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    background-color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
+    color: #f05f40;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+    color: #eb3812;
+}
+
+.navbar-default .nav > li>a,
+.navbar-default .nav>li>a:focus {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #222;
+}
+
+.navbar-default .nav > li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
+    color: #f05f40;
+}
+
+.navbar-default .nav > li.active>a,
+.navbar-default .nav>li.active>a:focus {
+    color: #f05f40!important;
+    background-color: transparent;
+}
+
+.navbar-default .nav > li.active>a:hover,
+.navbar-default .nav>li.active>a:focus:hover {
+    background-color: transparent;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        border-color: rgba(255,255,255,.3);
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-header .navbar-brand {
+        color: rgba(255,255,255,.7);
+    }
+
+    .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {
+        color: #fff;
+    }
+
+    .navbar-default .nav > li>a,
+    .navbar-default .nav>li>a:focus {
+        color: rgba(255,255,255,.7);
+    }
+
+    .navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: #fff;
+    }
+
+    .navbar-default.affix {
+        border-color: rgba(34,34,34,.05);
+        background-color: #fff;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand {
+        font-size: 14px;
+        color: #f05f40;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand:hover,
+    .navbar-default.affix .navbar-header .navbar-brand:focus {
+        color: #eb3812;
+    }
+
+    .navbar-default.affix .nav > li>a,
+    .navbar-default.affix .nav>li>a:focus {
+        color: #222;
+    }
+
+    .navbar-default.affix .nav > li>a:hover,
+    .navbar-default.affix .nav>li>a:focus:hover {
+        color: #f05f40;
+    }
+}
+
 
 .main-title {
 	position: absolute;
@@ -73,37 +169,57 @@ span {
 }
 
 .intro {
-    background: url(../css/index.png) no-repeat center center fixed; 
+    background: url(index.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .middle {
-   background:#FFF8DC;
-   color: gray;
+   background:rgb(35, 28, 35);
+   color:white;
+}
+.col-md-6 {
+    padding:0px;
+}
+.middle h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size:40px;
+    text-align:left;
+}
+.middle p{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+    font-size:20px;
 }
 .city {
-  background:#FFFAF0;
+  background:#F8F8FF;
   color: gray;
 }
 .team {
   background:#FFF8DC;
   color: gray;
+  font-size: 20px;
 }
 .blog {
-  background: #FFFAF0;
+  background: #F8F8FF;
   color: gray;
 }
 .contact {
-  background:#FFF8DC;
+  background:#FFF;
   color: gray;
 }
 
     
 .container {
     padding:200px;
+    padding-left:100px;
+    padding-top: 175px;
+    padding-bottom:250px;
     text-align:center;
+}
+.container , .right-content{
+    padding-right: 30px;
 }
     
 .btn-default{
@@ -111,15 +227,75 @@ span {
     border-color:white;
     border-radius:0px;
     color:white;
-    
-    font-size:30px;
+    font-size:20px;
 }
 .btn:hover, .btn:active {
   color: white;
   background-color: rgba(0,0,0,0.3);
 }
-#left-content {
-  background-color: #cce2f8;
+.left-content {
+  margin-right:50px;
+  
 }
+.col-md-12 h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:40px;
+    text-align:center;
+    padding-left:50px;
+}
+.citynumber {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 40px;
+}
+.location {
+  color: black;
+  font-size: 40px;
+}
+.form-control {
+    border: 0;
+}
+.form-inline .form-group input {
+  height: 50px;
+  font-size: 20px;
+  color: black;
+  width:400px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 0;
+  text-align: center;
+} 
+.blog h1 {
+  color: black;
+}
+.blog p {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+    font-size:20px;
+    color: black;
+
+}
+.blog .right-content {
+  margin-top: 7%;
+}
+.blog .btn-default{
+    background:transparent;
+    border-color:gray;
+    border-radius:0px;
+    color:black;
+    font-size:20px;
+    height: 100px;
+    width: 500px
+}
+.blog .btn:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+
+.blog .btn:active {
+  background-color: rgba(255,255,255,0.5);
+}
+
+
+
 
 
