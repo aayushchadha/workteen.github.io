@@ -140,10 +140,7 @@ img {
         color: #222;
     }
 
-    .navbar-default.affix .nav > li>a:hover,
-    .navbar-default.affix .nav>li>a:focus:hover {
-        color: #f05f40;
-    }
+   
 }
 
 
