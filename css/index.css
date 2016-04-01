@@ -1,6 +1,6 @@
 /*body{
 
-  background: url(../css/index.png),url(../css/index.png) no-repeat center center fixed; 
+  background: url(index.png),url(index.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -73,15 +73,27 @@ span {
 }
 
 .intro {
-    background: url(../css/index.png) no-repeat center center fixed; 
+    background: url(index.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .middle {
-   background:#FFF8DC;
-   color: gray;
+   background:rgb(35, 28, 35);
+   color:white;
+}
+.col-md-6 {
+    padding:0px;
+}
+.middle h1 {
+    font-family: 'Karla', sans-serif;
+    font-size:48px;
+}
+.middle p{
+    font-family: 'Karla', sans-serif;
+    text-align: justify;
+    font-size:20px;
 }
 .city {
   background:#FFFAF0;
@@ -103,6 +115,8 @@ span {
     
 .container {
     padding:200px;
+    padding-top:250px;
+    padding-bottom:250px;
     text-align:center;
 }
     
@@ -111,8 +125,7 @@ span {
     border-color:white;
     border-radius:0px;
     color:white;
-    
-    font-size:30px;
+    font-size:20px;
 }
 .btn:hover, .btn:active {
   color: white;
